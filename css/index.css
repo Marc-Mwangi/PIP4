@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    height: 30px;
+    justify-content: space-evenly;
+    position: relative;
+    color: white;
+    left: 50%;
+    
+    
+}
+.navbar {
+    width: 100%;
+    background-color: #DC2F02;
+    position: absolute;
+    top: 0;
+}
