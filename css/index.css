@@ -28,6 +28,7 @@ body{
     overflow: hidden;
 
 }
+
 #bb{
     position: absolute;
     z-index: -4;
@@ -44,5 +45,51 @@ body{
     left: 35%;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.99);
+    background-color: rgba(0, 0, 0, 1);
+}
+.flag{
+    position: absolute;
+    width: 100%;
+    bottom: 30%;
+    text-align: center;
+    color: black;
+}
+.flag h1{
+    text-align: center;
+    font-size: 2000%;
+    color: white;
+}
+@media (max-width:720px) {
+    .flag h1{
+        text-align: center;
+        font-size: 750%;
+        color: white;
+    }
+    .flag {
+        bottom: 60%;
+    }
+
+    
+}
+#toMenu {
+    border-radius: 1.25rem;
+    background-color: white;
+}
+#toMenu:hover {
+    background-color: rgb(255, 64, 64);   
+}
+.bh {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 20%; 
+    background-image: url("../media/br.jpg");
+    background-repeat: repeat-x;
+    
+}
+@media (max-width:720px) {
+    .bh {
+        top: 50%;
+    }
+    
 }
