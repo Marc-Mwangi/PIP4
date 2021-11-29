@@ -144,3 +144,86 @@ body{
     width: 100%;
     height: 30%;
 }
+.bases {
+    display: flex;
+    position: absolute;
+    top: 150%;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    color: rgb(255, 64, 64);
+    flex-direction: column;
+}
+.toppings {
+    width: 100%;
+    height: 130%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.toppings2{
+    width: 100%;
+    height: 130%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.mushroom {
+    width: 200px;
+    height: 200px;
+    border-radius: 1.25rem;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.onions {
+    width: 200px;
+    height: 200px;
+    border-radius: 1.25rem;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.bacon {
+    width: 200px;
+    height: 200px;
+    border-radius: 1.25rem;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.pepper {
+    width: 200px;
+    height: 200px;
+    border-radius: 1.25rem;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.xcheese {
+    width: 200px;
+    height: 200px;
+    border-radius: 1.25rem;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.pep {
+    width: 200px;
+    height: 200px;
+    border-radius: 1.25rem;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
