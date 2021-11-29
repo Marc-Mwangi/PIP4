@@ -227,3 +227,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+#ones {
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    border-radius: 1.25rem;
+}
+#ones:hover {
+    background-color:rgb(255, 64, 64); 
+
+}
